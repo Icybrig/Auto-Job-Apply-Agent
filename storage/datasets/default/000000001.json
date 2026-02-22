@@ -1,0 +1,101 @@
+{
+  "salary_yearly_minimum": 130000,
+  "education_level": null,
+  "contract_duration_minimum": null,
+  "reference": "507e7bb4-235b-401e-849b-f457874974b9",
+  "salary_maximum": 170000.0,
+  "_geoloc": [
+    {
+      "lat": 33.74831,
+      "lng": -84.39111
+    }
+  ],
+  "salary_currency": "USD",
+  "key_missions": [
+    "Translate actuarial requirements (including prototype R code) into efficient, maintainable Python.",
+    "Optimize complex mathematical operations to run 10× faster using vectorization and algorithmic improvements.",
+    "Collaborate closely with actuaries and subject-matter experts to ensure accurate implementation of domain-specific business rules."
+  ],
+  "published_at": "2026-01-31T00:00:55Z",
+  "organization": {
+    "name": "Akur8",
+    "reference": "qP3KRDy",
+    "labels": [],
+    "summary": "Transparent machine learning for insurance pricing and reserving.",
+    "profile_type": "standard",
+    "slug": "akur8",
+    "logo": {
+      "url": "https://cdn-images.welcometothejungle.com/EPMTlFIuBLEOTfGykRSsAudtrW6BPQXfjjf9R8vd-wU/rs:auto:400::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy9vcmdhbml6YXRpb24vbG9nby8yMDM3LzE1NzUwNC9iZjg2MjM4NC1iNDkwLTQyNGEtODkzMC1hMjM0MmM3OWE1MzAuanBn",
+      "thumb": {
+        "url": "https://cdn-images.welcometothejungle.com/GwdjauAGmpWHP2tHknmTrIRXeEBFqihCNEEqWZMKU4U/rs:auto:70::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy9vcmdhbml6YXRpb24vbG9nby8yMDM3LzE1NzUwNC9iZjg2MjM4NC1iNDkwLTQyNGEtODkzMC1hMjM0MmM3OWE1MzAuanBn"
+      }
+    },
+    "nb_employees": 200,
+    "creation_year": 2019,
+    "cover_image": {
+      "small": {
+        "url": "https://cdn-images.welcometothejungle.com/yIBkXEeydGfZbe7-xLr9ZcWwsjuKSROrhnYgDfjFrYw/rs:auto:640::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy93ZWJzaXRlX29yZ2FuaXphdGlvbi9jb3Zlcl9pbWFnZS93dHRqX2ZyL2VuLTcyODZlOGRmLWM1NGEtNGQ3YS05ZmQ1LWYwNmVhYjEzOGQ3MS5qcGc"
+      },
+      "url": "https://cdn-images.welcometothejungle.com/_DbXUzVdVuSNgrZQf-q071vqgvpKGQqLkpf6eGMTQMI/rs:auto:2000:450:/g:fp:0:0.37/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy93ZWJzaXRlX29yZ2FuaXphdGlvbi9jb3Zlcl9pbWFnZS93dHRqX2ZyL2VuLTcyODZlOGRmLWM1NGEtNGQ3YS05ZmQ1LWYwNmVhYjEzOGQ3MS5qcGc",
+      "medium": {
+        "url": "https://cdn-images.welcometothejungle.com/sb66kjyr205xDZ9Aa-GSRiLqT3b63RoklkHVbvyNR7I/rs:auto:900::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy93ZWJzaXRlX29yZ2FuaXphdGlvbi9jb3Zlcl9pbWFnZS93dHRqX2ZyL2VuLTcyODZlOGRmLWM1NGEtNGQ3YS05ZmQ1LWYwNmVhYjEzOGQ3MS5qcGc"
+      },
+      "large": {
+        "url": "https://cdn-images.welcometothejungle.com/J5S224PsuNdlqkSxmmQ1h77u4bGFmNRf4ByxeldXFqQ/rs:auto:1500::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy93ZWJzaXRlX29yZ2FuaXphdGlvbi9jb3Zlcl9pbWFnZS93dHRqX2ZyL2VuLTcyODZlOGRmLWM1NGEtNGQ3YS05ZmQ1LWYwNmVhYjEzOGQ3MS5qcGc"
+      },
+      "social": {
+        "url": "https://cdn-images.welcometothejungle.com/GQV-gPKqkUe6uQkjEal99d9TKP1xvXbp7T29c-JsHB4/rs:auto:1200:627:/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy93ZWJzaXRlX29yZ2FuaXphdGlvbi9jb3Zlcl9pbWFnZS93dHRqX2ZyL2VuLTcyODZlOGRmLWM1NGEtNGQ3YS05ZmQ1LWYwNmVhYjEzOGQ3MS5qcGc"
+      }
+    },
+    "commitments": [],
+    "equality_index": 97,
+    "profile_ranking": 100
+  },
+  "salary_period": "yearly",
+  "experience_level_minimum": null,
+  "contract_duration_maximum": null,
+  "remote": "partial",
+  "salary_minimum": 130000.0,
+  "profile_ranking": 100,
+  "offices": [
+    {
+      "state": "Georgia",
+      "city": "Atlanta",
+      "country": "United States",
+      "country_code": "US",
+      "district": "Fulton",
+      "local_district": "Fulton",
+      "local_city": "Atlanta",
+      "local_state": "Georgia"
+    }
+  ],
+  "published_at_timestamp": 1769817655,
+  "language": "en",
+  "name": "Python Numerical Computing Engineer",
+  "summary": "Join Akur8, a fast-growing InsurTech scale-up on a mission to modernize how insurers assess, price, and manage risk. As a Python Numerical Computing Engineer, you will translate complex mathematical and actuarial models into high-performance code, optimize numerical computations, and collaborate closely with actuaries and subject-matter experts. You will work in a dynamic team environment and enjoy a range of benefits, including competitive salary, health insurance, 401K company match, and more.",
+  "wk_reference": "AKUR8_oXx3ebr",
+  "slug": "python-numerical-computing-engineer_atlanta",
+  "is_boosted": false,
+  "contract_type": "full_time",
+  "benefits": [],
+  "published_at_date": "2026-01-31",
+  "sectors": [
+    {
+      "name": "FinTech / InsurTech",
+      "reference": "fintech-insurtech",
+      "parent_name": "Banking / Insurance / Finance",
+      "parent_reference": "banking-insurance-finance"
+    }
+  ],
+  "objectID": "507e7bb4-235b-401e-849b-f457874974b9",
+  "_highlightResult": {
+    "name": {
+      "value": "<em>Python</em> Numerical Computing Engineer",
+      "matchLevel": "full",
+      "fullyHighlighted": false,
+      "matchedWords": [
+        "python"
+      ]
+    }
+  }
+}

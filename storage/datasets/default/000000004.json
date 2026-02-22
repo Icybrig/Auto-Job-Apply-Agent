@@ -1,0 +1,98 @@
+{
+  "salary_yearly_minimum": null,
+  "education_level": null,
+  "contract_duration_minimum": null,
+  "reference": "0290288a-5e25-4803-b609-cd1236045bf8",
+  "salary_maximum": null,
+  "_geoloc": [
+    {
+      "lat": 42.35866,
+      "lng": -71.05674
+    }
+  ],
+  "salary_currency": null,
+  "key_missions": [
+    "Evaluate fuel and component behavior under normal, AOO, and accident scenarios; quantify margins and identify design improvements.",
+    "Build and maintain models for core/assembly flow, pressure drop, CHF/MDNBR, and heat transfer; perform sensitivity/uncertainty studies.",
+    "Execute transient/accident analyses (e.g., LOCA, RIA, loss of flow/heat sink); prepare inputs for safety case and regulatory submittals."
+  ],
+  "published_at": "2026-01-05T22:19:02Z",
+  "organization": {
+    "name": "VINCI Construction",
+    "reference": "4qq8rQ",
+    "labels": [],
+    "summary": "Construction d'infrastructures, bâtiments et aménagements urbains.",
+    "profile_type": "standard",
+    "slug": "vinci-construction-fr",
+    "logo": {
+      "url": "https://cdn-images.welcometothejungle.com/iGKthdXxF1j7ZZmaVtzXB610ikVxFwMvp16OT3DLjnc/rs:auto:400::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy9vcmdhbml6YXRpb24vbG9nby83NTgxLzE2NzU3OC82YjQxYTM0Yy1hMWQzLTQ5ZjUtYTc2Zi0wM2RlZDRkMzAxYmMuanBn",
+      "thumb": {
+        "url": "https://cdn-images.welcometothejungle.com/SFWxxJ77MOxjcxQexPbuq5a9dGD15XuMXHbHytSaMP4/rs:auto:70::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy9vcmdhbml6YXRpb24vbG9nby83NTgxLzE2NzU3OC82YjQxYTM0Yy1hMWQzLTQ5ZjUtYTc2Zi0wM2RlZDRkMzAxYmMuanBn"
+      }
+    },
+    "nb_employees": 117000,
+    "creation_year": 2000,
+    "cover_image": {
+      "small": {
+        "url": "https://cdn-images.welcometothejungle.com/7969MHCuLgpSVT4dEQtk-STpu8oUItsahJs29_KzKAE/rs:auto:640::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy93ZWJzaXRlX29yZ2FuaXphdGlvbi9jb3Zlcl9pbWFnZS93dHRqX2ZyL2ZyLTliOWZkYTEyLTUwZmEtNGUwMS05ZTdkLWZjNWI4NmE0ZDc4MC5qcGc"
+      },
+      "url": "https://cdn-images.welcometothejungle.com/Q9zVSEwN1fymFP2YfCwukKuUdKm4nd7HiF4h5WIC2gA/rs:auto:2000:450:/g:fp:0:0.5/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy93ZWJzaXRlX29yZ2FuaXphdGlvbi9jb3Zlcl9pbWFnZS93dHRqX2ZyL2ZyLTliOWZkYTEyLTUwZmEtNGUwMS05ZTdkLWZjNWI4NmE0ZDc4MC5qcGc",
+      "medium": {
+        "url": "https://cdn-images.welcometothejungle.com/608AEIR5HiEED8UbeKVbdPqf0WEEIz9G_7F8STCh12s/rs:auto:900::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy93ZWJzaXRlX29yZ2FuaXphdGlvbi9jb3Zlcl9pbWFnZS93dHRqX2ZyL2ZyLTliOWZkYTEyLTUwZmEtNGUwMS05ZTdkLWZjNWI4NmE0ZDc4MC5qcGc"
+      },
+      "large": {
+        "url": "https://cdn-images.welcometothejungle.com/TRMAknAxMbCStVkM_3xxw8gi8vP31KE8qnOw6K9fEMs/rs:auto:1500::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy93ZWJzaXRlX29yZ2FuaXphdGlvbi9jb3Zlcl9pbWFnZS93dHRqX2ZyL2ZyLTliOWZkYTEyLTUwZmEtNGUwMS05ZTdkLWZjNWI4NmE0ZDc4MC5qcGc"
+      },
+      "social": {
+        "url": "https://cdn-images.welcometothejungle.com/HV9Et4SIijr8u5FGI8cN79Vqjf2xB-7WcThmf4inFvc/rs:auto:1200:627:/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy93ZWJzaXRlX29yZ2FuaXphdGlvbi9jb3Zlcl9pbWFnZS93dHRqX2ZyL2ZyLTliOWZkYTEyLTUwZmEtNGUwMS05ZTdkLWZjNWI4NmE0ZDc4MC5qcGc"
+      }
+    },
+    "commitments": [],
+    "equality_index": 94,
+    "profile_ranking": 100
+  },
+  "salary_period": null,
+  "experience_level_minimum": null,
+  "contract_duration_maximum": null,
+  "remote": "unknown",
+  "salary_minimum": null,
+  "profile_ranking": 100,
+  "offices": [
+    {
+      "state": "Massachusetts",
+      "city": "Boston",
+      "country": "United States",
+      "country_code": "US",
+      "district": "Suffolk",
+      "local_district": "Suffolk",
+      "local_city": "Boston",
+      "local_state": "Massachusetts"
+    }
+  ],
+  "published_at_timestamp": 1767651542,
+  "language": "en",
+  "name": "Fuel Engineer F/H",
+  "summary": "Join TSSD Services, Inc., a leading provider of professional and technical staffing solutions in the energy and utility sectors. As a Fuel Engineer, you will support a U.S. fuel manufacturer in the analysis, design, and optimization of fuel and core systems. This remote position requires expertise in thermal/mechanical, hydraulic, safety analysis, or codes & methods. You will collaborate with cross-functional teams, produce technical documentation, and contribute to continuous improvement of engineering workflows.",
+  "wk_reference": "VC_w1bl3zZ",
+  "slug": "fuel-engineer-f-h_oakland",
+  "is_boosted": false,
+  "contract_type": "full_time",
+  "benefits": [],
+  "published_at_date": "2026-01-05",
+  "sectors": [
+    {
+      "name": "Building / Public Works",
+      "reference": "building-public-works",
+      "parent_name": "Industry",
+      "parent_reference": "industry-1"
+    }
+  ],
+  "objectID": "0290288a-5e25-4803-b609-cd1236045bf8",
+  "_highlightResult": {
+    "name": {
+      "value": "Fuel Engineer F/H",
+      "matchLevel": "none",
+      "matchedWords": []
+    }
+  }
+}

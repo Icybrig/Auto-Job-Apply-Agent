@@ -1,0 +1,17 @@
+{
+  "unique_key": "https://www.welcometothejungle.com/en/jobs?query=python",
+  "url": "https://www.welcometothejungle.com/en/jobs?query=python",
+  "method": "GET",
+  "payload": null,
+  "headers": {},
+  "user_data": {
+    "__crawlee": {
+      "state": 4
+    },
+    "label": "LIST"
+  },
+  "retry_count": 0,
+  "no_retry": false,
+  "loaded_url": null,
+  "handled_at": "2026-02-22 14:19:36.910438+00:00"
+}

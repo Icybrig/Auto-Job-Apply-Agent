@@ -1,0 +1,21 @@
+{
+  "sequence_counter": 13,
+  "forefront_sequence_counter": 0,
+  "forefront_requests": {},
+  "regular_requests": {
+    "https://www.welcometothejungle.com/en/jobs?query=python": 0,
+    "https://www.welcometothejungle.com/en/companies/akur8/jobs/python-numerical-computing-engineer_atlanta": 10,
+    "https://www.welcometothejungle.com/en/companies/dfns/jobs/senior-infrastructure-engineer_new-york": 9,
+    "https://www.welcometothejungle.com/en/companies/msx-international/jobs/ai-digitalization-expert_chester": 11,
+    "https://www.welcometothejungle.com/en/companies/vinci-construction-fr/jobs/fuel-engineer-f-h_oakland": 12
+  },
+  "in_progress_requests": [
+    "https://www.welcometothejungle.com/en/companies/akur8/jobs/python-numerical-computing-engineer_atlanta",
+    "https://www.welcometothejungle.com/en/companies/vinci-construction-fr/jobs/fuel-engineer-f-h_oakland",
+    "https://www.welcometothejungle.com/en/companies/msx-international/jobs/ai-digitalization-expert_chester",
+    "https://www.welcometothejungle.com/en/companies/dfns/jobs/senior-infrastructure-engineer_new-york"
+  ],
+  "handled_requests": [
+    "https://www.welcometothejungle.com/en/jobs?query=python"
+  ]
+}
