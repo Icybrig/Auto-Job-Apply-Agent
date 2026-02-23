@@ -1,98 +1,14 @@
 {
-  "salary_yearly_minimum": null,
-  "education_level": null,
-  "contract_duration_minimum": null,
-  "reference": "0290288a-5e25-4803-b609-cd1236045bf8",
-  "salary_maximum": null,
-  "_geoloc": [
-    {
-      "lat": 42.35866,
-      "lng": -71.05674
-    }
-  ],
-  "salary_currency": null,
-  "key_missions": [
-    "Evaluate fuel and component behavior under normal, AOO, and accident scenarios; quantify margins and identify design improvements.",
-    "Build and maintain models for core/assembly flow, pressure drop, CHF/MDNBR, and heat transfer; perform sensitivity/uncertainty studies.",
-    "Execute transient/accident analyses (e.g., LOCA, RIA, loss of flow/heat sink); prepare inputs for safety case and regulatory submittals."
-  ],
-  "published_at": "2026-01-05T22:19:02Z",
-  "organization": {
-    "name": "VINCI Construction",
-    "reference": "4qq8rQ",
-    "labels": [],
-    "summary": "Construction d'infrastructures, bâtiments et aménagements urbains.",
-    "profile_type": "standard",
-    "slug": "vinci-construction-fr",
-    "logo": {
-      "url": "https://cdn-images.welcometothejungle.com/iGKthdXxF1j7ZZmaVtzXB610ikVxFwMvp16OT3DLjnc/rs:auto:400::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy9vcmdhbml6YXRpb24vbG9nby83NTgxLzE2NzU3OC82YjQxYTM0Yy1hMWQzLTQ5ZjUtYTc2Zi0wM2RlZDRkMzAxYmMuanBn",
-      "thumb": {
-        "url": "https://cdn-images.welcometothejungle.com/SFWxxJ77MOxjcxQexPbuq5a9dGD15XuMXHbHytSaMP4/rs:auto:70::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy9vcmdhbml6YXRpb24vbG9nby83NTgxLzE2NzU3OC82YjQxYTM0Yy1hMWQzLTQ5ZjUtYTc2Zi0wM2RlZDRkMzAxYmMuanBn"
-      }
-    },
-    "nb_employees": 117000,
-    "creation_year": 2000,
-    "cover_image": {
-      "small": {
-        "url": "https://cdn-images.welcometothejungle.com/7969MHCuLgpSVT4dEQtk-STpu8oUItsahJs29_KzKAE/rs:auto:640::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy93ZWJzaXRlX29yZ2FuaXphdGlvbi9jb3Zlcl9pbWFnZS93dHRqX2ZyL2ZyLTliOWZkYTEyLTUwZmEtNGUwMS05ZTdkLWZjNWI4NmE0ZDc4MC5qcGc"
-      },
-      "url": "https://cdn-images.welcometothejungle.com/Q9zVSEwN1fymFP2YfCwukKuUdKm4nd7HiF4h5WIC2gA/rs:auto:2000:450:/g:fp:0:0.5/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy93ZWJzaXRlX29yZ2FuaXphdGlvbi9jb3Zlcl9pbWFnZS93dHRqX2ZyL2ZyLTliOWZkYTEyLTUwZmEtNGUwMS05ZTdkLWZjNWI4NmE0ZDc4MC5qcGc",
-      "medium": {
-        "url": "https://cdn-images.welcometothejungle.com/608AEIR5HiEED8UbeKVbdPqf0WEEIz9G_7F8STCh12s/rs:auto:900::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy93ZWJzaXRlX29yZ2FuaXphdGlvbi9jb3Zlcl9pbWFnZS93dHRqX2ZyL2ZyLTliOWZkYTEyLTUwZmEtNGUwMS05ZTdkLWZjNWI4NmE0ZDc4MC5qcGc"
-      },
-      "large": {
-        "url": "https://cdn-images.welcometothejungle.com/TRMAknAxMbCStVkM_3xxw8gi8vP31KE8qnOw6K9fEMs/rs:auto:1500::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy93ZWJzaXRlX29yZ2FuaXphdGlvbi9jb3Zlcl9pbWFnZS93dHRqX2ZyL2ZyLTliOWZkYTEyLTUwZmEtNGUwMS05ZTdkLWZjNWI4NmE0ZDc4MC5qcGc"
-      },
-      "social": {
-        "url": "https://cdn-images.welcometothejungle.com/HV9Et4SIijr8u5FGI8cN79Vqjf2xB-7WcThmf4inFvc/rs:auto:1200:627:/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy93ZWJzaXRlX29yZ2FuaXphdGlvbi9jb3Zlcl9pbWFnZS93dHRqX2ZyL2ZyLTliOWZkYTEyLTUwZmEtNGUwMS05ZTdkLWZjNWI4NmE0ZDc4MC5qcGc"
-      }
-    },
-    "commitments": [],
-    "equality_index": 94,
-    "profile_ranking": 100
-  },
-  "salary_period": null,
-  "experience_level_minimum": null,
-  "contract_duration_maximum": null,
-  "remote": "unknown",
-  "salary_minimum": null,
-  "profile_ranking": 100,
-  "offices": [
-    {
-      "state": "Massachusetts",
-      "city": "Boston",
-      "country": "United States",
-      "country_code": "US",
-      "district": "Suffolk",
-      "local_district": "Suffolk",
-      "local_city": "Boston",
-      "local_state": "Massachusetts"
-    }
-  ],
-  "published_at_timestamp": 1767651542,
-  "language": "en",
-  "name": "Fuel Engineer F/H",
-  "summary": "Join TSSD Services, Inc., a leading provider of professional and technical staffing solutions in the energy and utility sectors. As a Fuel Engineer, you will support a U.S. fuel manufacturer in the analysis, design, and optimization of fuel and core systems. This remote position requires expertise in thermal/mechanical, hydraulic, safety analysis, or codes & methods. You will collaborate with cross-functional teams, produce technical documentation, and contribute to continuous improvement of engineering workflows.",
-  "wk_reference": "VC_w1bl3zZ",
-  "slug": "fuel-engineer-f-h_oakland",
-  "is_boosted": false,
-  "contract_type": "full_time",
-  "benefits": [],
-  "published_at_date": "2026-01-05",
-  "sectors": [
-    {
-      "name": "Building / Public Works",
-      "reference": "building-public-works",
-      "parent_name": "Industry",
-      "parent_reference": "industry-1"
-    }
-  ],
-  "objectID": "0290288a-5e25-4803-b609-cd1236045bf8",
-  "_highlightResult": {
-    "name": {
-      "value": "Fuel Engineer F/H",
-      "matchLevel": "none",
-      "matchedWords": []
-    }
-  }
+  "url": "https://www.welcometothejungle.com/fr/companies/totalenergies/jobs/analyste-sig-debutant-avec-python-et-qgis-h-f_courbevoie",
+  "title": "Analyste SIG débutant avec Python et QGIS H/F",
+  "company": "TotalEnergies",
+  "location": "Nanterre",
+  "contract": "temporary",
+  "salary": null,
+  "currency": "EUR",
+  "exp_level": "LESS_THAN_6_MONTHS",
+  "edu_level": "bac_5",
+  "job_desc": "<p>Pour réussir à intégrer les métiers de l&#39;électricité et des énergies renouvelables, TotalEnergies a créé une nouvelle entité OneTech qui regroupe l&#39;ensemble des expertises techniques et de R&amp;D des branches (Exploration &amp; Production, Raffinage Chimie, Marketing &amp; Services et Gas, Renewables &amp; Power). Avec près de 3 400 ingénieurs et techniciens, répartis sur 9 sites en Europe, OneTech est organisé autour de 3 pôles, un pôle industriel pour accompagner la croissance de la Compagnie dans le gaz, les énergies renouvelables, l&#39;électricité et la réduction des émissions de CO2, un pôle Recherche &amp; Développement pour poursuivre la transformation de TotalEnergies en donnant la priorité au mix bas carbone et un pôle fonctions supports.</p><p>Vous ferez partie de l&#39;équipe Design au sein de la division Data and Digital Technologies, rattachée à l&#39;entité OneTech dont la mission est d&#39;apporter un support technique au Groupe. Ici, nous assurons un soutien SIG pour tous les projets énergétiques dans le monde, allant de la visualisation de données de base à la conception des infrastructures préliminaire.</p><p>Vous travaillerez aux côtés de géomaticiens juniors et seniors, ainsi que de spécialistes en topographie, télédétection, capture de la réalité, science des données et géosciences.</p><p>En tant qu&#39;analyste SIG débutant avec expérience en Python et QGIS H/F, vous serez responsable de la maintenance et du développement des outils nécessaires à la réalisation des projets opérationnels sous QGIS, ainsi que de la migration des projets existants vers le cloud. Vous apporterez également votre aide et votre soutien au reste de l&#39;équipe ainsi qu&#39;à la ligne clientèle du Groupe lorsque cela sera nécessaire.</p><p>Votre mission principale consistera toutefois à mettre en place des modèles de projet, dans lesquels les données et la symbologie seront automatiquement préchargées en fonction du type de projet. Votre travail sera essentiel pour optimiser et standardiser nos services.</p><p>Nous vous proposons un Contrat de Professionnalisation Temps Plein qualifiant de 12 mois (100% en entreprise) incluant un volet de formations (métier, linguistique, outils…). Ces formations sont dispensées en interne par des organismes sélectionnés par TotalEnergies.</p><p>Ce contrat vous permettra d&#39;acquérir une année d&#39;expérience professionnelle tout en étant formé aux spécificités de votre métier en lien avec les activités de la Compagnie. Un réel atout pour booster votre employabilité !</p><p>Si cette offre vous intéresse alors n&#39;attendez plus... Postulez chez TotalEnergies ! </p>",
+  "job_reqs": "<p>Vous avez récemment été diplômé(e) d&#39;un Bac+5 dans le domaine des technologies ? Débutez votre carrière par une expérience stimulante au cœur d&#39;équipes internationales, engagées dans la transition énergétique !</p><p>Nous recherchons pour une durée de 12 mois, un.e Analyste SIG débutant avec expérience en Python et QGIS H/F à partir d&#39;avril 2026.</p><p> </p><p>Lors de vos études en école d&#39;ingénieur, vous avez développé voter maitrise des systèmes de référence géographique : datums, projections et transformations et disposez d&#39;une première expérience sur QGIS et Python. Une première approche de FME sera fortement appréciée. Une première approche dans le domaine des énergies serait un plus.</p><p>Vous êtes à l&#39;aise avec la bureautique et connaissez la suite Office ? Vous utiliserez notamment Excel, Word et Powerpoint.</p><p>L&#39;autonomie, la rigueur et l&#39;esprit d&#39;équipe font partie intégrante de vos qualités ?</p><p>Posséder une bonne capacité rédactionnelle ainsi qu&#39;une maitrise professionnelle de l&#39;anglais seront indispensables à votre prise de poste.</p><p> </p>",
+  "published_at": "2026-02-16T11:20:53Z"
 }

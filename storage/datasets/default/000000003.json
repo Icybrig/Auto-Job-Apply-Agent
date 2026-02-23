@@ -1,98 +1,14 @@
 {
-  "salary_currency": null,
-  "summary": "Join MSX International, a leading provider of business process outsourcing solutions for the automotive and mobility industries. As an AI Digitalization Expert, you will play a key role in identifying, assessing, and implementing AI and digitalization solutions that enhance operational effectiveness and efficiency. You will collaborate closely with Value Stream leadership and other experts in the field, and have the opportunity to work from any MSX office in Europe or North America.",
-  "salary_period": null,
-  "contract_duration_maximum": null,
-  "language": "en",
-  "salary_minimum": null,
-  "is_boosted": false,
-  "profile_ranking": 100,
-  "salary_yearly_minimum": null,
-  "experience_level_minimum": 0.0,
-  "salary_maximum": null,
-  "contract_type": "full_time",
-  "remote": "unknown",
-  "contract_duration_minimum": null,
-  "reference": "b9db817d-c8be-4fe0-a18c-f64f1a621ebe",
-  "published_at_timestamp": 1768922414,
-  "_geoloc": [
-    {
-      "lat": 41.61156,
-      "lng": -87.06298
-    }
-  ],
-  "sectors": [
-    {
-      "name": "Automotive",
-      "reference": "automotive",
-      "parent_name": "Industry",
-      "parent_reference": "industry-1"
-    }
-  ],
-  "education_level": null,
-  "wk_reference": "MI_eXYWWPK",
-  "name": "AI Digitalization Expert",
-  "offices": [
-    {
-      "state": "Indiana",
-      "city": "Chesterton",
-      "country": "United States",
-      "country_code": "US",
-      "district": "Porter",
-      "local_district": "Porter",
-      "local_city": "Chesterton",
-      "local_state": "Indiana"
-    }
-  ],
-  "published_at": "2026-01-20T15:20:14Z",
-  "key_missions": [
-    "Act as the AI adoption and Digitalization expert for the Value Stream, contributing to planning and execution of AI and digitalization initiatives.",
-    "Combine automotive and mobility sectors' knowledge with technological exploration to identify, evaluate, and apply AI and digitalization tools to address business opportunities.",
-    "Drive project rollouts focused on automation and AI-enabled solutions in operational workflows, collaborating with Value Stream Delivery, IT, and business teams."
-  ],
-  "organization": {
-    "name": "MSX International",
-    "reference": "UODyqF",
-    "labels": [],
-    "summary": "Services dédiés aux constructeurs automobiles et acteurs de la mobilité.",
-    "profile_type": "standard",
-    "slug": "msx-international",
-    "logo": {
-      "url": "https://cdn-images.welcometothejungle.com/NoIZ7w4eUGWFPL3HMcLjZRH6MtxKcpIynIJYap9ciuI/rs:auto:400::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy9vcmdhbml6YXRpb24vbG9nby84MTE3LzE2NTExNS81Y2RkMTYxMS1lOTg0LTQzNjktYjJjYi1iZDNiNGI3NWE1NjkucG5n",
-      "thumb": {
-        "url": "https://cdn-images.welcometothejungle.com/zgxwmwqXOQtnsltZBdjYmX_unCLLFfkFMQV1wKkQqyI/rs:auto:70::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy9vcmdhbml6YXRpb24vbG9nby84MTE3LzE2NTExNS81Y2RkMTYxMS1lOTg0LTQzNjktYjJjYi1iZDNiNGI3NWE1NjkucG5n"
-      }
-    },
-    "nb_employees": 420,
-    "creation_year": 1993,
-    "cover_image": {
-      "small": {
-        "url": "https://cdn-images.welcometothejungle.com/pBpWzBUX8hpXdYeX9P2I9zV6NypO8WtkGawDpVwC-yE/rs:auto:640::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy93ZWJzaXRlX29yZ2FuaXphdGlvbi9jb3Zlcl9pbWFnZS93dHRqX2ZyL2ZyLTZkZjM2YmVhLTY4ZmQtNDU3MC05NjFhLWE5ZjE0NjlhNzY0OC5qcGc"
-      },
-      "url": "https://cdn-images.welcometothejungle.com/s2GF4wjhVMej2TNihOdexK_x2U3txpYsWSLgYamQJzw/rs:auto:2000:450:/g:fp:0:0.5/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy93ZWJzaXRlX29yZ2FuaXphdGlvbi9jb3Zlcl9pbWFnZS93dHRqX2ZyL2ZyLTZkZjM2YmVhLTY4ZmQtNDU3MC05NjFhLWE5ZjE0NjlhNzY0OC5qcGc",
-      "medium": {
-        "url": "https://cdn-images.welcometothejungle.com/S8HeCCsaCA4GRAERQ1k9eiQzG0TIgH-xGTXstVMNdgk/rs:auto:900::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy93ZWJzaXRlX29yZ2FuaXphdGlvbi9jb3Zlcl9pbWFnZS93dHRqX2ZyL2ZyLTZkZjM2YmVhLTY4ZmQtNDU3MC05NjFhLWE5ZjE0NjlhNzY0OC5qcGc"
-      },
-      "large": {
-        "url": "https://cdn-images.welcometothejungle.com/UfU5Jgbb_5aPP7-xrP580j9_xh3BHF5n1RO2Av5B-yw/rs:auto:1500::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy93ZWJzaXRlX29yZ2FuaXphdGlvbi9jb3Zlcl9pbWFnZS93dHRqX2ZyL2ZyLTZkZjM2YmVhLTY4ZmQtNDU3MC05NjFhLWE5ZjE0NjlhNzY0OC5qcGc"
-      },
-      "social": {
-        "url": "https://cdn-images.welcometothejungle.com/Fci56i1eol02FpCDVh3wMVvnQ3cguhKx1CmyxFgKkec/rs:auto:1200:627:/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy93ZWJzaXRlX29yZ2FuaXphdGlvbi9jb3Zlcl9pbWFnZS93dHRqX2ZyL2ZyLTZkZjM2YmVhLTY4ZmQtNDU3MC05NjFhLWE5ZjE0NjlhNzY0OC5qcGc"
-      }
-    },
-    "profile_ranking": 100,
-    "commitments": [],
-    "equality_index": 88
-  },
-  "slug": "ai-digitalization-expert_chester",
-  "benefits": [],
-  "published_at_date": "2026-01-20",
-  "objectID": "b9db817d-c8be-4fe0-a18c-f64f1a621ebe",
-  "_highlightResult": {
-    "name": {
-      "value": "AI Digitalization Expert",
-      "matchLevel": "none",
-      "matchedWords": []
-    }
-  }
+  "url": "https://www.welcometothejungle.com/fr/companies/line-technologies/jobs/developpeur-python-confirme-senior-h-f-paris",
+  "title": "Développeur Python Confirmé / Senior (H/F)",
+  "company": "Line Technologies",
+  "location": "Paris",
+  "contract": "full_time",
+  "salary": null,
+  "currency": "EUR",
+  "exp_level": "3_TO_4_YEARS",
+  "edu_level": "bac_5",
+  "job_desc": "<p>Envie d’accompagner les leaders IT &amp; Métier dans leurs transformation digitale ?</p><p>Les transformations de nos clients se veulent de plus en plus ambitieuses, notre rôle est de les accompagner dans la mise en place de solutions innovantes, adaptées à leurs besoins. En tant que <strong>Développeur Python</strong> vous aurez l’opportunité de jouer un rôle clé dans la conception, le développement et l’optimisation d’applications et de services backend.</p><h3>Développement &amp; Architecture</h3><ul><li><p><strong>Concevoir</strong> et <strong>développer</strong> de nouvelles fonctionnalités/solution (FastAPI, Django ou Flask selon projets)</p></li><li><p>Participer à la conception d’<strong>architectures robustes,</strong> <strong>scalables</strong> et <strong>sécurisées.</strong></p></li><li><p>Assurer l’<strong>évolutivité des applicatifs</strong> conçus</p></li><li><p>Apporter une <strong>vision d’expert</strong> de l’architecture à la définition de processus métiers</p></li><li><p><strong>Veille technologique</strong> : restez informé des dernières évolutions en matière de Python, Django et technologies connexes, et apportez de nouvelles idées et des bonnes pratiques à l’équipe</p></li></ul><h3>Qualité &amp; Performance</h3><ul><li><p><strong>Analyse &amp; Optimisation</strong> des algorithmes</p></li><li><p><strong>Profilage</strong> et analyse de performance, gestion efficace de la mémoire</p></li><li><p>Repenser <strong>l’architecture</strong> de façon <strong>modulaire</strong> pour répondre aux besoins de performance</p></li><li><p>Participer aux revues de code, aux tests et au déploiement</p></li></ul><h3>Collaboration &amp; Méthodologie</h3><ul><li><p>Travailler en <strong>méthodologie Agile</strong> au sein d’une équipe pluridisciplinaire (DevOps, Data et Produit).</p></li><li><p>Collaborer avec les équipes DevOps pour l’intégration continue et le déploiement.</p></li><li><p>Assurer un devoir de conseil de la phase de conception à la réalisation</p></li><li><p>Partager vos convictions dans un monde en perpétuelle évolution</p></li></ul><h3>Participez au développement commercial de LINE.</h3><ul><li>Venez <strong>développer/créer les offres LINE</strong>, saisissez l’opportunité de participer aux activités d’avant-ventes, le tout en cultivant les relations clients, éditeurs et hyperscalers.</li></ul>",
+  "job_reqs": "<p><strong>💎 Quelques compétences pour vous épanouir dans ce poste :</strong></p><ul><li><p>Vous êtes issu d’une <strong>formation supérieur Bac+5</strong></p></li><li><p>Vous avez une expérience significative comme <strong>développeur full stack</strong></p></li><li><p>Très bonne <strong>maîtrise de Python</strong> et de son écosystème.</p></li><li><p>Connaissance d’un <strong>framework web Python</strong> (FastAPI, Django, Flask…)</p></li><li><p>Maîtrise des <strong>bases de données SQL</strong> (PostgreSQL, MySQL…) et NoSQL (MongoDB, Redis…).</p></li><li><p>Connaissances en développement <strong>d’APIs REST ou GraphQL</strong>.</p></li><li><p>Bonne compréhension des <strong>pratiques DevOps</strong> (CI/CD, conteneurs Docker).</p></li><li><p>Vous êtes mobiles en France</p></li><li><p>Vous maîtrisez l’anglais à l’écrit comme à l’oral</p></li><li><p>Vous avez le sens du service et vous démarquez par votre autonomie, votre rigueur, votre curiosité et votre implication.</p></li><li><p>Vous êtes force de proposition, appréciez le travail en équipe et avez un réel sens de l’écoute.</p></li></ul><h3>Ce que nous offrons</h3><p>✅ <strong>La base :</strong> Mutuelle Alan &amp; Titres Restaurant Swile**.**</p><p>🎉 <strong>Des avantages complémentaires</strong> : Des offres et subventions variées disponibles sur notre plateforme CSE Leeto (mobilité, loisirs, etc.).</p><p>☀️ <strong>Une</strong> <strong>ambiance de travail au top</strong> : Une équipe dynamique et conviviale où l’entraide et la bonne humeur sont au cœur de notre ADN !</p><p>🚀 <strong>Une aventure entrepreneuriale :</strong> Intégrez une entreprise en pleine croissance où chaque membre de l’équipe a l’opportunité de participer activement à la construction et à l’évolution de notre histoire.</p><p>🧠 <strong>Un</strong> <strong><em>booster</em> de compétences</strong> : un environnement qui favorise le développement de chacun, en fonction de vos ambitions.</p><p>💻 <strong>Des conditions de travail flexibles</strong> : télétravail fréquent, en fonction des besoins de l’entreprise et des demandes clients.</p>",
+  "published_at": "2026-02-16T17:02:30Z"
 }

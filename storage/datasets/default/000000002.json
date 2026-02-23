@@ -1,133 +1,14 @@
 {
-  "salary_yearly_minimum": 220000,
-  "education_level": null,
-  "contract_duration_minimum": null,
-  "reference": "f02f615c-f75f-4979-96c1-3f1129d30ed4",
-  "salary_maximum": 300000.0,
-  "_geoloc": [
-    {
-      "lat": 40.71453,
-      "lng": -74.00712
-    }
-  ],
-  "salary_currency": "USD",
-  "key_missions": [
-    "Design, build, and maintain cloud infrastructure with a focus on scalability and security.",
-    "Architect and operate containerized and orchestrated systems (Docker, Kubernetes) and automate provisioning and deployments.",
-    "Implement and maintain observability with Datadog across logs, metrics, and traces, and optimize performance and reliability of applications."
-  ],
-  "published_at": "2026-01-18T14:17:39Z",
-  "organization": {
-    "name": "Dfns",
-    "reference": "ooaZJMr",
-    "labels": [],
-    "summary": "Wallets-as-a-Service platform for digital asset management and onboarding.",
-    "profile_type": "standard",
-    "slug": "dfns",
-    "logo": {
-      "url": "https://cdn-images.welcometothejungle.com/LVbBltg_fo46GmrSRhJ1LayTQ2EeI7xvijvgGXMcRFQ/rs:auto:400::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy9vcmdhbml6YXRpb24vbG9nby81MTg1LzE2MTQxNS9iN2I3OGVlNC05MDg1LTQ1MTQtODcxMC1jNDM0NzhhZGI2MmEuanBn",
-      "thumb": {
-        "url": "https://cdn-images.welcometothejungle.com/iimtYvv-VTGcmfpAUhRYKCPQvDqNCq_Z1nrwjjPO9a8/rs:auto:70::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy9vcmdhbml6YXRpb24vbG9nby81MTg1LzE2MTQxNS9iN2I3OGVlNC05MDg1LTQ1MTQtODcxMC1jNDM0NzhhZGI2MmEuanBn"
-      }
-    },
-    "nb_employees": 33,
-    "creation_year": 2020,
-    "cover_image": {
-      "small": {
-        "url": "https://cdn-images.welcometothejungle.com/QzR6_FFwetAOsa1H-LZu_SzhAefjrD7q0Emg3mFYWpk/rs:auto:640::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy93ZWJzaXRlX29yZ2FuaXphdGlvbi9jb3Zlcl9pbWFnZS93dHRqX2ZyL2VuLWRkZmRhZThhLWYzOTgtNDIwYy1iOTU5LTY3ZDI3NDZlMjBkMy5qcGc"
-      },
-      "url": "https://cdn-images.welcometothejungle.com/gw1iwL5N8UZhMwwDFZSy5bNJdyEkUQLks8m3_WJOzSE/rs:auto:2000:450:/g:fp:0:0.48/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy93ZWJzaXRlX29yZ2FuaXphdGlvbi9jb3Zlcl9pbWFnZS93dHRqX2ZyL2VuLWRkZmRhZThhLWYzOTgtNDIwYy1iOTU5LTY3ZDI3NDZlMjBkMy5qcGc",
-      "medium": {
-        "url": "https://cdn-images.welcometothejungle.com/cGAbLFet186nu9PuWFUXAkgdPqbl73yqGHWLwV4aOy8/rs:auto:900::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy93ZWJzaXRlX29yZ2FuaXphdGlvbi9jb3Zlcl9pbWFnZS93dHRqX2ZyL2VuLWRkZmRhZThhLWYzOTgtNDIwYy1iOTU5LTY3ZDI3NDZlMjBkMy5qcGc"
-      },
-      "large": {
-        "url": "https://cdn-images.welcometothejungle.com/b5IEaVf8-ODmiCeDKeC-OyZ-0yyYUFT_5jKn_JDpsgg/rs:auto:1500::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy93ZWJzaXRlX29yZ2FuaXphdGlvbi9jb3Zlcl9pbWFnZS93dHRqX2ZyL2VuLWRkZmRhZThhLWYzOTgtNDIwYy1iOTU5LTY3ZDI3NDZlMjBkMy5qcGc"
-      },
-      "social": {
-        "url": "https://cdn-images.welcometothejungle.com/lOW9XcnBB9c-4Rz4xty1jRmGgS-M2hUCRAlsp1X0pFQ/rs:auto:1200:627:/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy93ZWJzaXRlX29yZ2FuaXphdGlvbi9jb3Zlcl9pbWFnZS93dHRqX2ZyL2VuLWRkZmRhZThhLWYzOTgtNDIwYy1iOTU5LTY3ZDI3NDZlMjBkMy5qcGc"
-      }
-    },
-    "commitments": [],
-    "equality_index": null,
-    "profile_ranking": 100
-  },
-  "salary_period": "yearly",
-  "experience_level_minimum": 7.0,
-  "contract_duration_maximum": null,
-  "remote": "fulltime",
-  "salary_minimum": 220000.0,
-  "profile_ranking": 100,
-  "offices": [
-    {
-      "state": "New York",
-      "city": "New York",
-      "country": "United States",
-      "country_code": "US",
-      "district": "New York",
-      "local_district": "New York",
-      "local_city": "New York",
-      "local_state": "New York"
-    }
-  ],
-  "published_at_timestamp": 1768745859,
-  "language": "en",
-  "name": "Senior Infrastructure Engineer",
-  "summary": "Join a leading blockchain technology company as a Senior Infrastructure Engineer. In this role, you will design, operate, and scale the systems that power our platform, ensuring reliability, security, and scalability. You will work at the intersection of blockchain, cybersecurity, and distributed infrastructure, and collaborate with engineering, product, and security teams. The ideal candidate will have 8+ years of experience in infrastructure, DevOps, or SRE, with strong expertise in AWS and containerized microservices.",
-  "wk_reference": "DFNS_a88VL6D",
-  "slug": "senior-infrastructure-engineer_new-york",
-  "is_boosted": false,
-  "contract_type": "full_time",
-  "benefits": [
-    "Flexible working hours",
-    "Open to full remote",
-    "Work from anywhere",
-    "Food service or stocked kitchen",
-    "Free food & snacks",
-    "Pet-friendly office",
-    "Stock purchase plan / Stock options",
-    "Relocation assistance",
-    "Domestic partnership or wedding bonus",
-    "Team building",
-    "Afterworks, Team lunches",
-    "Professional development plan",
-    "Paid industry certifications",
-    "Mentor program",
-    "Funded educational training",
-    "Birth allocation",
-    "Family medical leave",
-    "Sick child leave",
-    "Parenting support",
-    "Employer-paid health insurance",
-    "Retirement plan",
-    "Reimbursement above 50%"
-  ],
-  "published_at_date": "2026-01-18",
-  "sectors": [
-    {
-      "name": "Blockchain",
-      "reference": "blockchain-1",
-      "parent_name": "Tech",
-      "parent_reference": "tech-1"
-    },
-    {
-      "name": "Cyber Security",
-      "reference": "cyber-security",
-      "parent_name": "Tech",
-      "parent_reference": "tech-1"
-    },
-    {
-      "name": "Finance",
-      "reference": "finance-2",
-      "parent_name": "Banking / Insurance / Finance",
-      "parent_reference": "banking-insurance-finance"
-    }
-  ],
-  "objectID": "f02f615c-f75f-4979-96c1-3f1129d30ed4",
-  "_highlightResult": {
-    "name": {
-      "value": "Senior Infrastructure Engineer",
-      "matchLevel": "none",
-      "matchedWords": []
-    }
-  }
+  "url": "https://www.welcometothejungle.com/fr/companies/fieldbox-ai/jobs/backend-developer-python-django_FIELD_pWbkwgK",
+  "title": "Backend developer - Python/django",
+  "company": "FIELDBOX",
+  "location": "Bordeaux",
+  "contract": "full_time",
+  "salary": null,
+  "currency": "EUR",
+  "exp_level": "2_TO_3_YEARS",
+  "edu_level": "Not specified",
+  "job_desc": "<p><strong>Your missions :</strong></p><p>Contribute to <strong>conception</strong>, development and maintenance of web applications using industrial data, especially their back-end base</p><p>You will join a multidisciplinary team, including back-end, front-end, devops, data science and product skills.</p><p>This position will give you the opportunity to <strong>design, implement, test and deploy back-end applications</strong>, as well as handle data access, collection and storage, keeping in mind performance, scalability and security. You will also be in charge of execution, orchestration and supervision of data pipelines and predictive algorithms services.</p><p>All of that, to improve operational efficiency and competitiveness of our industrial clients.</p><p>Ever dreamt of immersing yourself in the realm of AI? Your forthcoming project may involve delivering real-time model predictions to enhance operational safety.</p><p>Aspire to make a meaningful contribution to the reduction of greenhouse gas emissions? Join Fieldbox and participate in an Energy Efficiency use case.</p><p>If you have an interest in cutting-edge technologies such as the Internet of Things (IoT), we also offer exciting opportunities in these domains.</p><p>You can count on a dynamic internal DevBack community:</p><p>join them on a weekly basis to share about your challenges and reflect on the Fieldbox technical toolset.</p><p>You will also have a personal Technical Coach to support you in your technical skills development.</p>",
+  "job_reqs": "<p><strong>Your personal qualities</strong></p><ul><li><p>You are looking for a dynamic company in an innovative and demanding industrial field,</p></li><li><p>You understand the impact of technical decisions on users,</p></li><li><p>You enjoy working in small multidisciplinary teams,</p></li><li><p>You enjoy iterative approach focusing on value and project’s goals,</p></li><li><p>You have at least 2 years of experience in web applications back-end development,</p></li><li><p>You understand the constraints of a deployed application,</p></li><li><p>You enjoy learning by yourself or with others,</p></li><li><p>You contribute to the continuous effort on developing the technical tools and knowledge base that can be reused across projects</p></li></ul><p>You have experience for the following technologies :<br/>Back-end : Python 3 (mandatory), Django (strongly recommended), Docker, Data Engineering (optional)</p><p><strong>Advantage and benefits:</strong></p><p>What about our offices ?</p><ul><li><p>Bordeaux: meet with your colleagues in a peaceful and calm space with an amazing view on “Les bassins à flots”</p></li><li><p>Paris: enjoy a premium coworking space centrally located in Paris’s prestigious 8th arrondissement, featuring immediate access to all local amenities.</p></li></ul><p>What about our values :</p><ul><li><p>Join a company which values care where everyone is in position to reach their full potential</p></li><li><p>Create immediate impact on the company</p></li><li><p>You will work within an energetic team with a strong technical skill. Weekly engineering talks are organized every week to present projects or discuss technical topics.</p></li></ul><p>Fun Activity:</p><ul><li><p>Afterwork every month with different theme ( bowling , board game , darts, beers bar, etc. )</p></li><li><p>Lunch break : outside lunches, board game parties, and sport! (running, badminton,soccer)</p></li><li><p>CTFs</p></li></ul>",
+  "published_at": "2026-02-17T08:53:23Z"
 }

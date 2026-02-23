@@ -1,101 +1,14 @@
 {
-  "salary_yearly_minimum": 130000,
-  "education_level": null,
-  "contract_duration_minimum": null,
-  "reference": "507e7bb4-235b-401e-849b-f457874974b9",
-  "salary_maximum": 170000.0,
-  "_geoloc": [
-    {
-      "lat": 33.74831,
-      "lng": -84.39111
-    }
-  ],
-  "salary_currency": "USD",
-  "key_missions": [
-    "Translate actuarial requirements (including prototype R code) into efficient, maintainable Python.",
-    "Optimize complex mathematical operations to run 10× faster using vectorization and algorithmic improvements.",
-    "Collaborate closely with actuaries and subject-matter experts to ensure accurate implementation of domain-specific business rules."
-  ],
-  "published_at": "2026-01-31T00:00:55Z",
-  "organization": {
-    "name": "Akur8",
-    "reference": "qP3KRDy",
-    "labels": [],
-    "summary": "Transparent machine learning for insurance pricing and reserving.",
-    "profile_type": "standard",
-    "slug": "akur8",
-    "logo": {
-      "url": "https://cdn-images.welcometothejungle.com/EPMTlFIuBLEOTfGykRSsAudtrW6BPQXfjjf9R8vd-wU/rs:auto:400::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy9vcmdhbml6YXRpb24vbG9nby8yMDM3LzE1NzUwNC9iZjg2MjM4NC1iNDkwLTQyNGEtODkzMC1hMjM0MmM3OWE1MzAuanBn",
-      "thumb": {
-        "url": "https://cdn-images.welcometothejungle.com/GwdjauAGmpWHP2tHknmTrIRXeEBFqihCNEEqWZMKU4U/rs:auto:70::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy9vcmdhbml6YXRpb24vbG9nby8yMDM3LzE1NzUwNC9iZjg2MjM4NC1iNDkwLTQyNGEtODkzMC1hMjM0MmM3OWE1MzAuanBn"
-      }
-    },
-    "nb_employees": 200,
-    "creation_year": 2019,
-    "cover_image": {
-      "small": {
-        "url": "https://cdn-images.welcometothejungle.com/yIBkXEeydGfZbe7-xLr9ZcWwsjuKSROrhnYgDfjFrYw/rs:auto:640::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy93ZWJzaXRlX29yZ2FuaXphdGlvbi9jb3Zlcl9pbWFnZS93dHRqX2ZyL2VuLTcyODZlOGRmLWM1NGEtNGQ3YS05ZmQ1LWYwNmVhYjEzOGQ3MS5qcGc"
-      },
-      "url": "https://cdn-images.welcometothejungle.com/_DbXUzVdVuSNgrZQf-q071vqgvpKGQqLkpf6eGMTQMI/rs:auto:2000:450:/g:fp:0:0.37/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy93ZWJzaXRlX29yZ2FuaXphdGlvbi9jb3Zlcl9pbWFnZS93dHRqX2ZyL2VuLTcyODZlOGRmLWM1NGEtNGQ3YS05ZmQ1LWYwNmVhYjEzOGQ3MS5qcGc",
-      "medium": {
-        "url": "https://cdn-images.welcometothejungle.com/sb66kjyr205xDZ9Aa-GSRiLqT3b63RoklkHVbvyNR7I/rs:auto:900::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy93ZWJzaXRlX29yZ2FuaXphdGlvbi9jb3Zlcl9pbWFnZS93dHRqX2ZyL2VuLTcyODZlOGRmLWM1NGEtNGQ3YS05ZmQ1LWYwNmVhYjEzOGQ3MS5qcGc"
-      },
-      "large": {
-        "url": "https://cdn-images.welcometothejungle.com/J5S224PsuNdlqkSxmmQ1h77u4bGFmNRf4ByxeldXFqQ/rs:auto:1500::/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy93ZWJzaXRlX29yZ2FuaXphdGlvbi9jb3Zlcl9pbWFnZS93dHRqX2ZyL2VuLTcyODZlOGRmLWM1NGEtNGQ3YS05ZmQ1LWYwNmVhYjEzOGQ3MS5qcGc"
-      },
-      "social": {
-        "url": "https://cdn-images.welcometothejungle.com/GQV-gPKqkUe6uQkjEal99d9TKP1xvXbp7T29c-JsHB4/rs:auto:1200:627:/q:85/czM6Ly93dHRqLXByb2R1Y3Rpb24vdXBsb2Fkcy93ZWJzaXRlX29yZ2FuaXphdGlvbi9jb3Zlcl9pbWFnZS93dHRqX2ZyL2VuLTcyODZlOGRmLWM1NGEtNGQ3YS05ZmQ1LWYwNmVhYjEzOGQ3MS5qcGc"
-      }
-    },
-    "commitments": [],
-    "equality_index": 97,
-    "profile_ranking": 100
-  },
-  "salary_period": "yearly",
-  "experience_level_minimum": null,
-  "contract_duration_maximum": null,
-  "remote": "partial",
-  "salary_minimum": 130000.0,
-  "profile_ranking": 100,
-  "offices": [
-    {
-      "state": "Georgia",
-      "city": "Atlanta",
-      "country": "United States",
-      "country_code": "US",
-      "district": "Fulton",
-      "local_district": "Fulton",
-      "local_city": "Atlanta",
-      "local_state": "Georgia"
-    }
-  ],
-  "published_at_timestamp": 1769817655,
-  "language": "en",
-  "name": "Python Numerical Computing Engineer",
-  "summary": "Join Akur8, a fast-growing InsurTech scale-up on a mission to modernize how insurers assess, price, and manage risk. As a Python Numerical Computing Engineer, you will translate complex mathematical and actuarial models into high-performance code, optimize numerical computations, and collaborate closely with actuaries and subject-matter experts. You will work in a dynamic team environment and enjoy a range of benefits, including competitive salary, health insurance, 401K company match, and more.",
-  "wk_reference": "AKUR8_oXx3ebr",
-  "slug": "python-numerical-computing-engineer_atlanta",
-  "is_boosted": false,
-  "contract_type": "full_time",
-  "benefits": [],
-  "published_at_date": "2026-01-31",
-  "sectors": [
-    {
-      "name": "FinTech / InsurTech",
-      "reference": "fintech-insurtech",
-      "parent_name": "Banking / Insurance / Finance",
-      "parent_reference": "banking-insurance-finance"
-    }
-  ],
-  "objectID": "507e7bb4-235b-401e-849b-f457874974b9",
-  "_highlightResult": {
-    "name": {
-      "value": "<em>Python</em> Numerical Computing Engineer",
-      "matchLevel": "full",
-      "fullyHighlighted": false,
-      "matchedWords": [
-        "python"
-      ]
-    }
-  }
+  "url": "https://www.welcometothejungle.com/fr/companies/manty/jobs/lead-developer-python-react_paris",
+  "title": "Lead Développeur (Python/React)",
+  "company": "Manty",
+  "location": "Paris",
+  "contract": "full_time",
+  "salary": null,
+  "currency": "EUR",
+  "exp_level": "5_TO_7_YEARS",
+  "edu_level": "bac_5",
+  "job_desc": "<h3>Ta mission du poste :</h3><p>L’équipe Tech/Engineering est composée d’une vingtaine de personnes divisées en 3 pôles :</p><ul><li><p>Développement : développeurs, lead developer et CTO</p></li><li><p>Produit : responsable produit et product manager</p></li><li><p>Data : responsable data, data engineer, data integration specialist et technicien déploiement</p></li></ul><p>Tous les pôles travaillent ensemble au quotidien de manière agile. Rattaché.e à notre CTO, ta mission principale sera d’assurer le bon fonctionnement d’une squad, en garantissant la coordination technique et le management des développeurs Fullstack de ta squad.</p><hr/><h3>🤝 Tes responsabilités principales :</h3><p><strong>Squad Lead : Tu donnes le cap et tu fais avancer l’équipe dans la bonne direction.</strong></p><ul><li><p>Piloter le backlog et co-construire la roadmap avec le product manager pour assurer une delivery fiable, régulière et alignée avec les enjeux produit.</p></li><li><p>Animer la squad avec une vision technique claire, pour assurer des projets solides et livrés dans les temps.</p></li></ul><p><strong>Management : Tu fais grandir les talents et tu façonnes l’équipe de demain</strong></p><ul><li><p>Assurer le mentoring, l’onboarding et la progression des développeurs grâce à un suivi personnalisé et des échanges réguliers.</p></li><li><p>Participer activement au recrutement de nos futurs talents via des entretiens techniques.</p></li></ul><p><strong>Développement : Tu partages ta maitrise technique sur les sujets critiques, en contribuant à la montée en compétences de toute la squad</strong></p><ul><li><p>Contribuer au code toute en garantissant qualité, robustesse, maintenabilité et en menant des revues techniques exigeantes.</p></li><li><p>Intervenir sur les enjeux techniques clés pour assurer la scalabilité, la performance et la cohérence globale de l’architecture.</p></li></ul><hr/><h3>La stack technique que tu retrouveras sur ce poste :</h3><ul><li><p>Python (Flask)</p></li><li><p>React/React Query</p></li><li><p>Docker</p></li><li><p>PostgreSQL</p></li><li><p>Serveurs Linux</p></li><li><p>Livraison continue &amp; bonnes pratiques (dev-staging-prod env, tests, code reviews, pair programming…)</p></li></ul>",
+  "job_reqs": "<h3>👤 Ce qui fera la différence pour ce poste :</h3><ul><li><p>Au moins 5 ans d’expériences comme <strong>développeur full stack dans un environnement Python, idéalement avec des solutions Saas.</strong></p></li><li><p>Bonnes connaissances des bonnes pratiques et des problématiques de perf/scalabilité,</p></li><li><p>Tu es une personne proactive et curieuse avec un goût prononcé pour l’apprentissage continu et le partage des connaissances.</p></li><li><p>Tu ressens une réelle volonté d’aider le secteur public à se moderniser !</p></li></ul><hr/><h3>✅ Pourquoi rejoindre Manty ?</h3><ul><li><p>Nous sommes une équipe animée par une mission <strong>d’intérêt</strong> <strong>général</strong> : créer un pont entre les nouvelles technologies et les services publics.</p></li><li><p><strong>Progression</strong> <strong>permanente</strong> dans un cadre à la fois moteur et exigeant, sur des sujets aussi techniquement difficiles qu’intéressants : comment la tech permet de bien gérer la ville.</p></li><li><p>Un <strong>salaire</strong> <strong>attractif</strong> et possibilité de progression rapide au sein d’une boite en hyper-croissance</p></li><li><p><strong>Transparence</strong> à tous les niveaux de la boite et esprit d’initiative fortement valorisé</p></li><li><p>Depuis mars 2022, nous faisons partie du <strong>groupe</strong> <strong>Relyens</strong> ! Ce qui nous permet de grandir plus rapidement et de développer plus de fonctionnalités et de solutions pour moderniser l’état !</p></li><li><p>Un vrai <strong>accompagnement</strong> dans l’équipe engineering (Programme de mentoring, Coffee&amp;Learn, peer programming et peer engineering pour les spécifications)</p></li></ul><hr/><h3>👇 Bonus !</h3><ul><li><p>De <strong>supers</strong> <strong>locaux</strong> à deux pas de Nation et une politique de <strong>Télétravail</strong> hyper <strong>flexible</strong> !</p></li><li><p><strong>9,5 € de tickets resto</strong> par jour : 60% pris par Manty, Carte Swile</p></li><li><p><strong>Mutuelle prise en charge à 100%</strong> par Manty, Alan</p></li><li><p><strong>544,80 € annuel de forfait mobilité durable.</strong> Remboursements à 50% des transports en commun (pass Navigo, abonnement vélo…) ET/OU pour acheter, louer un vélo, une trottinette mais aussi payer des tickets de métro à l’unité… C’est toi qui décide comment tu veux utiliser ton forfait, Carte Swile</p></li><li><p><strong>Abonnement Egym Wellpass très avantageux</strong></p></li><li><p>Budget individuel de formation (formations, conférences…)</p></li><li><p>150 € annuel pour l’achat de livres</p></li><li><p>Programme de <strong>mentorat</strong> pour t’accompagner dans ton parcours chez Manty</p></li></ul>",
+  "published_at": "2026-02-17T10:25:42Z"
 }
