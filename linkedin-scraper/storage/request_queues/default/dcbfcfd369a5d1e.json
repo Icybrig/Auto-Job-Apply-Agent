@@ -1,0 +1,19 @@
+{
+  "unique_key": "https://www.linkedin.com/jobs/view/python-django-developer-at-ntt-data-north-america-4371041383?pagenum=0&position=34&refid=ne%2brgfmwvfmn7mqokonvza%3d%3d&trackingid=tt6gm/s5v3aqxf293rbp0a%3d%3d",
+  "url": "https://www.linkedin.com/jobs/view/python-django-developer-at-ntt-data-north-america-4371041383?position=34&pageNum=0&refId=NE%2BrgfMwvfmN7mQOKONvZA%3D%3D&trackingId=TT6gm%2Fs5v3aqxF293rBp0A%3D%3D",
+  "method": "GET",
+  "payload": null,
+  "headers": {},
+  "user_data": {
+    "__crawlee": {
+      "state": 6,
+      "sessionRotationCount": 1,
+      "crawlDepth": 1
+    },
+    "label": "job_listing"
+  },
+  "retry_count": 3,
+  "no_retry": false,
+  "loaded_url": null,
+  "handled_at": "2026-02-24 14:54:12.754042+00:00"
+}

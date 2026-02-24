@@ -1,0 +1,18 @@
+{
+  "unique_key": "https://www.linkedin.com/jobs/view/software-engineer-fullstack-early-career-at-notion-4334158613?pagenum=0&position=7&refid=ne%2brgfmwvfmn7mqokonvza%3d%3d&trackingid=h8qrqpaczr9mngiwgxdirg%3d%3d",
+  "url": "https://www.linkedin.com/jobs/view/software-engineer-fullstack-early-career-at-notion-4334158613?position=7&pageNum=0&refId=NE%2BrgfMwvfmN7mQOKONvZA%3D%3D&trackingId=h8QRqpAczR9mngiWgXdiRg%3D%3D",
+  "method": "GET",
+  "payload": null,
+  "headers": {},
+  "user_data": {
+    "__crawlee": {
+      "state": 4,
+      "crawlDepth": 1
+    },
+    "label": "job_listing"
+  },
+  "retry_count": 0,
+  "no_retry": false,
+  "loaded_url": null,
+  "handled_at": "2026-02-24 14:51:38.377117+00:00"
+}

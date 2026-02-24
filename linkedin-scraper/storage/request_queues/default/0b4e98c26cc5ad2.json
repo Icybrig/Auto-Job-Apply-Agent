@@ -1,0 +1,18 @@
+{
+  "unique_key": "https://www.linkedin.com/jobs/view/python-developer-at-ltimindtree-4370711031?pagenum=0&position=60&refid=ne%2brgfmwvfmn7mqokonvza%3d%3d&trackingid=hrwo6bfbonfv6rdpkiqo7a%3d%3d",
+  "url": "https://www.linkedin.com/jobs/view/python-developer-at-ltimindtree-4370711031?position=60&pageNum=0&refId=NE%2BrgfMwvfmN7mQOKONvZA%3D%3D&trackingId=HRwO6bfBoNfV6RDpkiqo7A%3D%3D",
+  "method": "GET",
+  "payload": null,
+  "headers": {},
+  "user_data": {
+    "__crawlee": {
+      "state": 6,
+      "crawlDepth": 1
+    },
+    "label": "job_listing"
+  },
+  "retry_count": 3,
+  "no_retry": false,
+  "loaded_url": null,
+  "handled_at": "2026-02-24 14:53:51.716643+00:00"
+}

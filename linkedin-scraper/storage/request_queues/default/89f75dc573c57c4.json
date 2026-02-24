@@ -1,0 +1,18 @@
+{
+  "unique_key": "https://www.linkedin.com/jobs/view/entry-level-python-ai-engineer-32869-at-stealth-startup-4371959331?pagenum=0&position=44&refid=ne%2brgfmwvfmn7mqokonvza%3d%3d&trackingid=a8va04i8ufzfglr5gccg1a%3d%3d",
+  "url": "https://www.linkedin.com/jobs/view/entry-level-python-ai-engineer-32869-at-stealth-startup-4371959331?position=44&pageNum=0&refId=NE%2BrgfMwvfmN7mQOKONvZA%3D%3D&trackingId=A8va04i8uFzFglR5gccg1A%3D%3D",
+  "method": "GET",
+  "payload": null,
+  "headers": {},
+  "user_data": {
+    "__crawlee": {
+      "state": 6,
+      "crawlDepth": 1
+    },
+    "label": "job_listing"
+  },
+  "retry_count": 3,
+  "no_retry": false,
+  "loaded_url": null,
+  "handled_at": "2026-02-24 14:53:46.507310+00:00"
+}

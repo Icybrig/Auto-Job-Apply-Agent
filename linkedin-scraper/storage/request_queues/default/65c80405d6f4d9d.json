@@ -1,0 +1,18 @@
+{
+  "unique_key": "https://www.linkedin.com/jobs/view/python-developer-at-grinteq-4306207227?pagenum=0&position=31&refid=ne%2brgfmwvfmn7mqokonvza%3d%3d&trackingid=jzsyzebivjszxrjobjt9ng%3d%3d",
+  "url": "https://www.linkedin.com/jobs/view/python-developer-at-grinteq-4306207227?position=31&pageNum=0&refId=NE%2BrgfMwvfmN7mQOKONvZA%3D%3D&trackingId=jZsYzEbivJsZXrjoBJT9Ng%3D%3D",
+  "method": "GET",
+  "payload": null,
+  "headers": {},
+  "user_data": {
+    "__crawlee": {
+      "state": 4,
+      "crawlDepth": 1
+    },
+    "label": "job_listing"
+  },
+  "retry_count": 3,
+  "no_retry": false,
+  "loaded_url": null,
+  "handled_at": "2026-02-24 14:53:44.491312+00:00"
+}

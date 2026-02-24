@@ -1,0 +1,19 @@
+{
+  "unique_key": "https://www.linkedin.com/jobs/view/junior-full-stack-developer-at-capgemini-4370834867?pagenum=0&position=6&refid=ne%2brgfmwvfmn7mqokonvza%3d%3d&trackingid=/4tkou8emx6zq6kiyv5c7w%3d%3d",
+  "url": "https://www.linkedin.com/jobs/view/junior-full-stack-developer-at-capgemini-4370834867?position=6&pageNum=0&refId=NE%2BrgfMwvfmN7mQOKONvZA%3D%3D&trackingId=%2F4tKoU8EmX6Zq6KiYV5c7w%3D%3D",
+  "method": "GET",
+  "payload": null,
+  "headers": {},
+  "user_data": {
+    "__crawlee": {
+      "state": 6,
+      "sessionRotationCount": 1,
+      "crawlDepth": 1
+    },
+    "label": "job_listing"
+  },
+  "retry_count": 3,
+  "no_retry": false,
+  "loaded_url": "https://www.linkedin.com/jobs/view/junior-full-stack-developer-at-capgemini-4370834867?position=6&pageNum=0&refId=NE%2BrgfMwvfmN7mQOKONvZA%3D%3D&trackingId=%2F4tKoU8EmX6Zq6KiYV5c7w%3D%3D",
+  "handled_at": "2026-02-24 14:54:12.353396+00:00"
+}

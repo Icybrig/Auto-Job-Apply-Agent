@@ -1,0 +1,18 @@
+{
+  "unique_key": "https://www.linkedin.com/jobs/view/python-developer-at-the-dignify-solutions-llc-4350897291?pagenum=0&position=57&refid=ne%2brgfmwvfmn7mqokonvza%3d%3d&trackingid=egm45excooa9ftxmmdpwqg%3d%3d",
+  "url": "https://www.linkedin.com/jobs/view/python-developer-at-the-dignify-solutions-llc-4350897291?position=57&pageNum=0&refId=NE%2BrgfMwvfmN7mQOKONvZA%3D%3D&trackingId=EGm45excooA9fTXMMdpwqg%3D%3D",
+  "method": "GET",
+  "payload": null,
+  "headers": {},
+  "user_data": {
+    "__crawlee": {
+      "state": 6,
+      "crawlDepth": 1
+    },
+    "label": "job_listing"
+  },
+  "retry_count": 3,
+  "no_retry": false,
+  "loaded_url": null,
+  "handled_at": "2026-02-24 14:53:50.222724+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "unique_key": "https://www.linkedin.com/jobs/view/sr-python-developer-at-crg-4370479195?pagenum=0&position=28&refid=ne%2brgfmwvfmn7mqokonvza%3d%3d&trackingid=whyyhehbhdmetqpbl/4q6w%3d%3d",
+  "url": "https://www.linkedin.com/jobs/view/sr-python-developer-at-crg-4370479195?position=28&pageNum=0&refId=NE%2BrgfMwvfmN7mQOKONvZA%3D%3D&trackingId=WHYyHEhbhdmeTQpBL%2F4q6w%3D%3D",
+  "method": "GET",
+  "payload": null,
+  "headers": {},
+  "user_data": {
+    "__crawlee": {
+      "state": 4,
+      "sessionRotationCount": 1,
+      "crawlDepth": 1
+    },
+    "label": "job_listing"
+  },
+  "retry_count": 1,
+  "no_retry": false,
+  "loaded_url": null,
+  "handled_at": "2026-02-24 14:52:50.779084+00:00"
+}

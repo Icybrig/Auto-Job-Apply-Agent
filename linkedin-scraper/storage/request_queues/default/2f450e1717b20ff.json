@@ -1,0 +1,18 @@
+{
+  "unique_key": "https://fr.linkedin.com/company/capgemini?trk=public_jobs_jserp-result_job-search-card-subtitle",
+  "url": "https://fr.linkedin.com/company/capgemini?trk=public_jobs_jserp-result_job-search-card-subtitle",
+  "method": "GET",
+  "payload": null,
+  "headers": {},
+  "user_data": {
+    "__crawlee": {
+      "state": 6,
+      "crawlDepth": 1
+    },
+    "label": "job_listing"
+  },
+  "retry_count": 3,
+  "no_retry": false,
+  "loaded_url": "https://fr.linkedin.com/company/capgemini?trk=public_jobs_jserp-result_job-search-card-subtitle",
+  "handled_at": "2026-02-24 14:54:24.000486+00:00"
+}

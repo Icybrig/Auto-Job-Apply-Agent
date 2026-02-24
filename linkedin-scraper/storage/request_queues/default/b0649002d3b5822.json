@@ -1,0 +1,16 @@
+{
+  "unique_key": "https://www.linkedin.com/jobs/search?keywords=python+developer",
+  "url": "https://www.linkedin.com/jobs/search?keywords=python+developer",
+  "method": "GET",
+  "payload": null,
+  "headers": {},
+  "user_data": {
+    "__crawlee": {
+      "state": 4
+    }
+  },
+  "retry_count": 0,
+  "no_retry": false,
+  "loaded_url": null,
+  "handled_at": "2026-02-24 14:51:17.558331+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "unique_key": "https://www.linkedin.com/jobs/view/entry-level-python-engineer-32870-at-stealth-startup-4364797749?pagenum=0&position=29&refid=ne%2brgfmwvfmn7mqokonvza%3d%3d&trackingid=zsiwsghyzy3ospmabw/pha%3d%3d",
+  "url": "https://www.linkedin.com/jobs/view/entry-level-python-engineer-32870-at-stealth-startup-4364797749?position=29&pageNum=0&refId=NE%2BrgfMwvfmN7mQOKONvZA%3D%3D&trackingId=zSiwSghyzy3OsPMaBw%2FpHA%3D%3D",
+  "method": "GET",
+  "payload": null,
+  "headers": {},
+  "user_data": {
+    "__crawlee": {
+      "state": 4,
+      "crawlDepth": 1
+    },
+    "label": "job_listing"
+  },
+  "retry_count": 3,
+  "no_retry": false,
+  "loaded_url": null,
+  "handled_at": "2026-02-24 14:53:43.460324+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "unique_key": "https://www.linkedin.com/jobs/view/python-developer-32884-at-stealth-startup-4373464481?pagenum=0&position=54&refid=ne%2brgfmwvfmn7mqokonvza%3d%3d&trackingid=j1veu7a5slmofhg8hf9jaq%3d%3d",
+  "url": "https://www.linkedin.com/jobs/view/python-developer-32884-at-stealth-startup-4373464481?position=54&pageNum=0&refId=NE%2BrgfMwvfmN7mQOKONvZA%3D%3D&trackingId=j1VEU7A5SLMoFhg8hF9JAQ%3D%3D",
+  "method": "GET",
+  "payload": null,
+  "headers": {},
+  "user_data": {
+    "__crawlee": {
+      "state": 6,
+      "crawlDepth": 1
+    },
+    "label": "job_listing"
+  },
+  "retry_count": 3,
+  "no_retry": false,
+  "loaded_url": null,
+  "handled_at": "2026-02-24 14:53:49.965100+00:00"
+}

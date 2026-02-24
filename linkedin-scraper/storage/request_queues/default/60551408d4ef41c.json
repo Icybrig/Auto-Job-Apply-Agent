@@ -1,0 +1,18 @@
+{
+  "unique_key": "https://www.linkedin.com/jobs/view/python-developer-at-infosys-4363272081?pagenum=0&position=51&refid=ne%2brgfmwvfmn7mqokonvza%3d%3d&trackingid=t/smzftz5kgd8oxzejy8uq%3d%3d",
+  "url": "https://www.linkedin.com/jobs/view/python-developer-at-infosys-4363272081?position=51&pageNum=0&refId=NE%2BrgfMwvfmN7mQOKONvZA%3D%3D&trackingId=t%2FSMzFtz5Kgd8OXzEjy8UQ%3D%3D",
+  "method": "GET",
+  "payload": null,
+  "headers": {},
+  "user_data": {
+    "__crawlee": {
+      "state": 6,
+      "crawlDepth": 1
+    },
+    "label": "job_listing"
+  },
+  "retry_count": 3,
+  "no_retry": false,
+  "loaded_url": null,
+  "handled_at": "2026-02-24 14:53:49.175043+00:00"
+}

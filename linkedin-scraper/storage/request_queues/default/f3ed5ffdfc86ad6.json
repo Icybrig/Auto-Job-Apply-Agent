@@ -1,0 +1,19 @@
+{
+  "unique_key": "https://www.linkedin.com/jobs/view/junior-software-engineer-python-at-synergy-ecp-4250717400?pagenum=0&position=26&refid=ne%2brgfmwvfmn7mqokonvza%3d%3d&trackingid=srtjdjf0fqxmes9lv1qzyq%3d%3d",
+  "url": "https://www.linkedin.com/jobs/view/junior-software-engineer-python-at-synergy-ecp-4250717400?position=26&pageNum=0&refId=NE%2BrgfMwvfmN7mQOKONvZA%3D%3D&trackingId=SRtjdJf0FQxMeS9lV1qZYQ%3D%3D",
+  "method": "GET",
+  "payload": null,
+  "headers": {},
+  "user_data": {
+    "__crawlee": {
+      "state": 4,
+      "sessionRotationCount": 1,
+      "crawlDepth": 1
+    },
+    "label": "job_listing"
+  },
+  "retry_count": 2,
+  "no_retry": false,
+  "loaded_url": null,
+  "handled_at": "2026-02-24 14:53:38.266196+00:00"
+}

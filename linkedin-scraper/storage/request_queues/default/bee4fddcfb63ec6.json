@@ -1,0 +1,18 @@
+{
+  "unique_key": "https://www.linkedin.com/jobs/view/junior-full-stack-engineer-$250k-$300k-salary-at-baton-corporation-4373590558?pagenum=0&position=13&refid=ne%2brgfmwvfmn7mqokonvza%3d%3d&trackingid=qw2epojfznkwhjxjj%2bpqvq%3d%3d",
+  "url": "https://www.linkedin.com/jobs/view/junior-full-stack-engineer-%24250k-%24300k-salary-at-baton-corporation-4373590558?position=13&pageNum=0&refId=NE%2BrgfMwvfmN7mQOKONvZA%3D%3D&trackingId=qw2EPOjFzNkwhJXjj%2BpqvQ%3D%3D",
+  "method": "GET",
+  "payload": null,
+  "headers": {},
+  "user_data": {
+    "__crawlee": {
+      "state": 4,
+      "crawlDepth": 1
+    },
+    "label": "job_listing"
+  },
+  "retry_count": 0,
+  "no_retry": false,
+  "loaded_url": null,
+  "handled_at": "2026-02-24 14:51:56.790930+00:00"
+}
