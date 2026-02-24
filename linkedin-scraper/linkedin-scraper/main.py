@@ -1,41 +1,26 @@
-from crawlee.crawlers import PlaywrightCrawler
+from crawlee.crawlers import BeautifulSoupCrawler
+from crawlee import Request, ConcurrencySettings
 from .routes import router
 import urllib.parse
 import os
 
-# location: str
-async def main(title: str, data_name: str) -> None:
-    base_url = "https://www.linkedin.com/jobs/search"
 
-    # URL encode the parameters
-    params = {
-        "keywords": title,
-        # "location": location,
-        # "trk": "public_jobs_jobs-search-bar_search-submit",
-        # "position": "1",
-        # "pageNum": "0"
-    }
-    encoded_params = urllib.parse.urlencode(params)
-    encoded_url = f"{base_url}?{encoded_params}"
+async def main(title: str, data_name: str, max_results: int = 100) -> None:
+    base_url = "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search"
+    params = {"keywords": title, "start": "0"}
+    encoded_url = f"{base_url}?{urllib.parse.urlencode(params)}"
 
-    # Initialize the crawler with anti-detection settings
-    crawler = PlaywrightCrawler(
+    crawler = BeautifulSoupCrawler(
         request_handler=router,
-        headless=False,  # headed mode reduces bot detection probability
-        browser_type='chromium',
-        browser_launch_options={
-            'args': [
-                '--disable-blink-features=AutomationControlled',
-                '--no-sandbox',
-                '--disable-dev-shm-usage',
-            ],
-        },
+        concurrency_settings=ConcurrencySettings(
+            max_concurrency=2,
+            max_tasks_per_minute=25,
+        ),
     )
 
-    # Run the crawler with the initial list of URLs
-    await crawler.run([encoded_url])
+    initial_request = Request.from_url(encoded_url, user_data={'max_results': max_results})
+    await crawler.run([initial_request])
 
-    # Save the data to an absolute path so the file is always findable
     output_dir = os.path.dirname(os.path.abspath(__file__))
     output_file = os.path.join(output_dir, f"{data_name}.csv")
     await crawler.export_data(output_file)
