@@ -1,14 +1,12 @@
-from crawlee.crawlers import PlaywrightCrawler, PlaywrightCrawlingContext
+from crawlee.crawlers import PlaywrightCrawlingContext
 from playwright.async_api import Response
-from crawlee.router import Router
+from src.webcrawler.rooter import router
 from crawlee import Request
 import re
 
-router = Router[PlaywrightCrawlingContext]()
 
-
-@router.default_handler
-async def default_handler(context: PlaywrightCrawlingContext):
+@router.handler(label="WTTJ_List")
+async def wttj_list_handler(context: PlaywrightCrawlingContext):
     context.log.info(f"processing job lists: {context.request.url}")
 
     async def extract_url_from_response(response: Response):
@@ -25,7 +23,7 @@ async def default_handler(context: PlaywrightCrawlingContext):
                     Request.from_url(
                         f"https://www.welcometothejungle.com/fr/companies/"
                         f"{hit['organization']['slug']}/jobs/{hit['slug']}",
-                        label="job",
+                        label="WTTJ_Job",
                     )
                     for hit in hits
                     if hit.get("organization") and hit.get("slug")
@@ -39,11 +37,11 @@ async def default_handler(context: PlaywrightCrawlingContext):
                 context.log.warning(f"failed to extract jobs from response: {e}")
 
     context.page.on(event="response", f=extract_url_from_response)
-    await context.page.goto(url=context.request.url, wait_until="networkidle")
+    await context.page.goto(url=context.request.url, wait_until="domcontentloaded")
     await context.page.wait_for_timeout(2000)
 
 
-@router.handler(label="job")
+@router.handler(label="WTTJ_Job")
 async def job_handler(context: PlaywrightCrawlingContext):
     url = context.request.url
     context.log.info(f"Processing job: {url}")
