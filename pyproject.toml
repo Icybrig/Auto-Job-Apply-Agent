@@ -6,4 +6,5 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "crawlee[all]>=1.4.0",
+    "playwright-stealth>=2.0.2",
 ]
