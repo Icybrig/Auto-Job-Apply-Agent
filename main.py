@@ -20,8 +20,6 @@ _HEADERS = {
 
 
 async def main():
-    target_pages = 2
-
     wttj_crawler = PlaywrightCrawler(
         request_handler=router,
         request_handler_timeout=timedelta(seconds=120),
@@ -29,19 +27,16 @@ async def main():
     indeed_crawler = BeautifulSoupCrawler(
         request_handler=router,
         concurrency_settings=concurrency_settings,
-        request_handler_timeout=timedelta(seconds=6000)
+        request_handler_timeout=timedelta(seconds=6000),
+        ignore_http_error_status_codes={403, 404},
     )
 
     initial_requests = [
         Request.from_url(
-            # url=f"https://www.welcometothejungle.com/fr/jobs?query=python&page={i}",
-            # label="WTTJ_List",
-            url=f"https://fr.indeed.com/jobs?q=data&l=France&start={10}",
+            url="https://fr.indeed.com/jobs?q=data&l=France&start=0",
             label="Indeed_List",
-            user_data= {"max_results": 10 * target_pages},
             headers=_HEADERS,
         )
-        for i in range(1, target_pages + 1)
     ]
 
     await indeed_crawler.run(initial_requests)
