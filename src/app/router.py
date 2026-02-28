@@ -7,6 +7,7 @@ from src.db.database import get_db
 from src.app.schema import JobResponse, JobCreate
 from src.db.model import Job
 from typing import List
+
 app = FastAPI(title="Job_API")
 job_router = APIRouter(prefix="/job")
 
@@ -40,6 +41,3 @@ def get_job(
     if conditions:
         jobs = query.filter(or_(*conditions)).all()
     return jobs
-
-
-

@@ -1,5 +1,4 @@
 from datetime import datetime
-
 from pydantic import BaseModel, ConfigDict
 from src.db.model import PlatformType
 
