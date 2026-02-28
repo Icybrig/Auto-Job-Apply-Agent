@@ -3,6 +3,12 @@ from playwright.async_api import Response
 from src.webcrawler.rooter import router
 from crawlee import Request
 import re
+from src.webcrawler.utils import (
+    clean_html,
+    normalize_date,
+    normalize_education_level,
+    normalize_experience_level,
+)
 
 
 @router.handler(label="WTTJ_List")
@@ -78,6 +84,9 @@ async def job_handler(context: PlaywrightCrawlingContext):
             raise ValueError("API returned empty job data")
         company = data.get("organization") or {}
         office = data.get("office") or {}
+        job_desc = clean_html(data.get("description"))
+        job_reqs = clean_html(data.get("profile"))
+        publicated_at = normalize_date(data.get("published_at"))
         await context.push_data(
             {
                 "url": url,
@@ -87,11 +96,13 @@ async def job_handler(context: PlaywrightCrawlingContext):
                 "contract": data.get("contract_type"),
                 "salary": data.get("salary_min"),
                 "currency": data.get("salary_currency") or "EUR",
-                "exp_level": data.get("experience_level") or "Not specified",
-                "edu_level": data.get("education_level") or "Not specified",
-                "job_desc": data.get("description"),
-                "job_reqs": data.get("profile"),
-                "published_at": data.get("published_at"),
+                "exp_level": normalize_experience_level(data.get("experience_level"))
+                or "Not specified",
+                "edu_level": normalize_education_level(data.get("education_level"))
+                or "Not specified",
+                "job_desc": job_desc,
+                "job_reqs": job_reqs,
+                "published_at": publicated_at,
             }
         )
         context.log.info(f"Successfully saved: {data.get('name')}")

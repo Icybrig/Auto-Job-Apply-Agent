@@ -20,10 +20,23 @@ _HEADERS = {
 
 
 async def main():
-    wttj_crawler = PlaywrightCrawler(
-        request_handler=router,
-        request_handler_timeout=timedelta(seconds=120),
-    )
+    # wttj_crawler = PlaywrightCrawler(
+    #     request_handler=router,
+    #     request_handler_timeout=timedelta(seconds=120),
+    # )
+
+    # initial_requests = [
+    #     Request.from_url(
+    #         url="https://www.welcometothejungle.com/fr/jobs?query=data&page=1",
+    #         label="WTTJ_List",
+    #         headers=_HEADERS,
+    #     )
+    # ]
+
+    # await wttj_crawler.run(initial_requests)
+    # await wttj_crawler.export_data("storage/datasets/default/wttj_data.csv")
+    # print("Job data exported to dataset.csv")
+
     indeed_crawler = BeautifulSoupCrawler(
         request_handler=router,
         concurrency_settings=concurrency_settings,

@@ -10,6 +10,7 @@ from src.webcrawler.utils import (
     extract_experience_level,
     extract_requirements_snippet,
     normalize_date,
+    extract_contract_type,
 )
 
 _HEADERS = {
@@ -152,6 +153,7 @@ async def indeed_job_handler(context: BeautifulSoupCrawlingContext) -> None:
     desc_text = clean_html(job_data.get("description"))
     requirements = extract_requirements_snippet(desc_text)
     published_at = normalize_date(job_data.get("datePosted"))
+    contract = extract_contract_type(job_data.get("employmentType"))
 
     await context.push_data(
         {
@@ -160,13 +162,13 @@ async def indeed_job_handler(context: BeautifulSoupCrawlingContext) -> None:
             "title": job_data.get("title"),
             "company": org.get("name"),
             "location": addr.get("addressLocality") or addr.get("addressRegion"),
-            "contract": job_data.get("employmentType"),
+            "contract": contract,
             "salary": sal_val.get("minValue") or sal_val.get("value"),
             "currency": salary.get("currency") or "EUR",
             "job_desc": desc_text,
             "job_reqs": requirements,
-            "exp_level": extract_experience_level(desc_text),
-            "edu_level": extract_education_level(desc_text),
+            "exp_level": extract_experience_level(desc_text) or "Not specified",
+            "edu_level": extract_education_level(desc_text) or "Not specified",
             "published_at": published_at,
         }
     )

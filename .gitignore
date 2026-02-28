@@ -2,4 +2,4 @@
 .DS_Store
 .venv
 storage/
-__pycache__
+__pycache__/
