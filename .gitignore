@@ -1,5 +1,8 @@
 .vscode
+.env
+.pythob-version
 .DS_Store
+.dockerignore
 .venv
 storage/
 __pycache__/
