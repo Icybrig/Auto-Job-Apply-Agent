@@ -1,8 +1,6 @@
 import json
-
 from crawlee import Request
 from crawlee.crawlers import BeautifulSoupCrawlingContext
-
 from src.webcrawler.rooter import router
 from src.webcrawler.utils import (
     clean_html,

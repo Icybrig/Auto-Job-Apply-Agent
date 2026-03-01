@@ -14,11 +14,12 @@ from src.webcrawler.utils import (
 @router.handler(label="WTTJ_List")
 async def wttj_list_handler(context: PlaywrightCrawlingContext):
     context.log.info(f"processing job lists: {context.request.url}")
+    queued_count = 0
 
     async def extract_url_from_response(response: Response):
+        nonlocal queued_count
         if (
             "algolia" in response.url
-            and "search_origin=job_search_client" in response.url
             and response.status == 200
             and response.request.method == "POST"
         ):
@@ -36,6 +37,7 @@ async def wttj_list_handler(context: PlaywrightCrawlingContext):
                 ]
                 if job_requests:
                     await context.add_requests(job_requests)
+                    queued_count += len(job_requests)
                     context.log.info(
                         f"found {len(job_requests)} jobs from current page"
                     )
@@ -44,7 +46,40 @@ async def wttj_list_handler(context: PlaywrightCrawlingContext):
 
     context.page.on(event="response", f=extract_url_from_response)
     await context.page.goto(url=context.request.url, wait_until="domcontentloaded")
-    await context.page.wait_for_timeout(2000)
+    await context.page.wait_for_load_state("networkidle")
+    await context.page.wait_for_timeout(3000)
+
+    if queued_count == 0:
+        hrefs = await context.page.eval_on_selector_all(
+            'a[href*="/companies/"][href*="/jobs/"]',
+            "els => els.map(e => e.getAttribute('href')).filter(Boolean)",
+        )
+        normalized = []
+        seen = set()
+        for href in hrefs:
+            if not isinstance(href, str):
+                continue
+            if "/companies/" not in href or "/jobs/" not in href:
+                continue
+            full = (
+                href
+                if href.startswith("http")
+                else f"https://www.welcometothejungle.com{href}"
+            )
+            key = full.split("?")[0].split("#")[0]
+            if key in seen:
+                continue
+            seen.add(key)
+            normalized.append(
+                Request.from_url(
+                    key,
+                    label="WTTJ_Job",
+                )
+            )
+
+        if normalized:
+            await context.add_requests(normalized)
+            context.log.info(f"fallback enqueued {len(normalized)} jobs from DOM links")
 
 
 @router.handler(label="WTTJ_Job")
@@ -90,6 +125,7 @@ async def job_handler(context: PlaywrightCrawlingContext):
         await context.push_data(
             {
                 "url": url,
+                "platform": "Welcome to the jungle",
                 "title": data.get("name"),
                 "company": company.get("name"),
                 "location": office.get("city"),
@@ -106,5 +142,5 @@ async def job_handler(context: PlaywrightCrawlingContext):
             }
         )
         context.log.info(f"Successfully saved: {data.get('name')}")
-    except:
-        pass
+    except Exception as e:
+        context.log.exception("Failed to process WTTJ job %s: %s", url, e)

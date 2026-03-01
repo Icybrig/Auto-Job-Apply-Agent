@@ -6,5 +6,5 @@ router = Router[Union[PlaywrightCrawlingContext, BeautifulSoupCrawlingContext]](
 
 
 @router.default_handler
-def default_handler(context: PlaywrightCrawlingContext):
+async def default_handler(context: PlaywrightCrawlingContext):
     context.log.info("Defualt")

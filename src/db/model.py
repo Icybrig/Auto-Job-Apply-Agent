@@ -1,5 +1,13 @@
-from arrow import now
-from sqlalchemy import Column, Enum, Text, Integer, String, func, DateTime
+from sqlalchemy import (
+    Column,
+    Enum,
+    Text,
+    Integer,
+    String,
+    func,
+    DateTime,
+    UniqueConstraint,
+)
 from sqlalchemy.orm import DeclarativeBase
 import enum
 
@@ -16,10 +24,13 @@ class PlatformType(enum.Enum):
 
 class Job(Base):
     __tablename__ = "job"
-    id = Column(Integer, primary_key=True, nullable=True, index=True)
+    __table_args__ = (UniqueConstraint("platform", "url", "title"),)
+
+    id = Column(Integer, primary_key=True, nullable=False, index=True)
     platform = Column(Enum(PlatformType))
-    title = Column(String, nullable=True)
-    company = Column(String, nullable=True)
+    url = Column(String, nullable=False)
+    title = Column(String, nullable=False)
+    company = Column(String, nullable=False)
     location = Column(String)
     contract = Column(String)
     salary = Column(Integer)

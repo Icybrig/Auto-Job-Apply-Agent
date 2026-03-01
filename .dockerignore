@@ -1,0 +1,12 @@
+.git
+.gitignore
+.venv
+.airflow
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.log
+storage/
+.pytest_cache/
+.DS_Store
