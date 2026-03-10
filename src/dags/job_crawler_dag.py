@@ -61,6 +61,15 @@ def job_crawler_pipeline():
         return _post_json(url)
 
     @task
+    def run_linkedin_crawler() -> list[dict]:
+        api_base_url, crawl_title, crawl_location, crawl_count = _runtime_config()
+        qs = parse.urlencode(
+            {"title": crawl_title, "location": crawl_location, "max_results": crawl_count}
+        )
+        url = f"{api_base_url}/crawler/linkedin?{qs}"
+        return _post_json(url)
+
+    @task
     def save_indeed(jobs: list[dict]) -> int:
         api_base_url, _, _, _ = _runtime_config()
         if not jobs:
@@ -76,11 +85,21 @@ def job_crawler_pipeline():
         saved_rows = _post_json(f"{api_base_url}/job/bulk", {"jobs": jobs})
         return len(saved_rows)
 
+    @task
+    def save_linkedin(jobs: list[dict]) -> int:
+        api_base_url, _, _, _ = _runtime_config()
+        if not jobs:
+            return 0
+        saved_rows = _post_json(f"{api_base_url}/job/bulk", {"jobs": jobs})
+        return len(saved_rows)
+
     indeed_jobs = run_indeed_crawler()
     wttj_jobs = run_wttj_crawler()
+    linkedin_jobs = run_linkedin_crawler()
 
     save_indeed(indeed_jobs)
     save_wttj(wttj_jobs)
+    save_linkedin(linkedin_jobs)
 
 
 job_crawler_pipeline()

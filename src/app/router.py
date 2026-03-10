@@ -6,9 +6,9 @@ from fastapi.routing import APIRouter
 from sqlalchemy.orm import Session
 from src.db.database import get_db
 from src.app.schema import JobResponse, JobCreate, JobBulkCreate
-from src.db.model import Job
+from src.db.model import Job, PlatformType
 from typing import List
-from src.webcrawler.service import crawl_indeed_jobs, crawl_wttj_jobs
+from src.webcrawler.service import crawl_indeed_jobs, crawl_linkedin_jobs, crawl_wttj_jobs
 
 app = FastAPI(title="Job_API")
 job_router = APIRouter(prefix="/job")
@@ -66,6 +66,7 @@ def get_job(
     location: Optional[str] = None,
     exp_level: Optional[str] = None,
     contract: Optional[str] = None,
+    platform: Optional[str] = None,
     db: Session = Depends(get_db),
 ):
     query = db.query(Job)
@@ -79,6 +80,11 @@ def get_job(
         conditions.append(Job.exp_level == exp_level)
     if contract:
         conditions.append(Job.contract == contract)
+    if platform:
+        try:
+            conditions.append(Job.platform == PlatformType[platform])
+        except KeyError:
+            pass
     if conditions:
         jobs = query.filter(and_(*conditions)).all()
     return jobs
@@ -100,4 +106,14 @@ async def run_wttj_crawler(
     count: int = Query(default=30, ge=1, le=300),
 ):
     jobs = await crawl_wttj_jobs(title=title, location=location, count=count)
+    return [JobCreate(**job) for job in jobs]
+
+
+@crawler_router.post("/linkedin", response_model=List[JobCreate])
+async def run_linkedin_crawler(
+    title: str = "data scientist",
+    location: str = "France",
+    max_results: int = Query(default=25, ge=1, le=200),
+):
+    jobs = await crawl_linkedin_jobs(title=title, location=location, max_results=max_results)
     return [JobCreate(**job) for job in jobs]

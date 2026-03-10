@@ -10,6 +10,7 @@ from crawlee.crawlers import BeautifulSoupCrawler, PlaywrightCrawler
 from crawlee.storages import RequestQueue
 
 import src.webcrawler.indeed_crawler
+import src.webcrawler.linkedIn_crawler
 import src.webcrawler.wttj_crawler
 from src.webcrawler.rooter import router
 
@@ -133,3 +134,44 @@ async def crawl_wttj_jobs(
         if str(item.get("platform", "")).strip().lower() in {"welcome to the jungle", "wttj"}
     ]
     return _latest_first(wttj_items)[:target_count]
+
+
+async def crawl_linkedin_jobs(
+    title: str = "data", location: str = "France", max_results: int = 25
+) -> list[dict[str, Any]]:
+    request_queue = await RequestQueue.open(alias=_run_queue_alias("linkedin"))
+
+    crawler = BeautifulSoupCrawler(
+        request_handler=router,
+        request_manager=request_queue,
+        concurrency_settings=ConcurrencySettings(
+            max_concurrency=1, desired_concurrency=1
+        ),
+        request_handler_timeout=timedelta(seconds=600),
+        ignore_http_error_status_codes={403, 404},
+    )
+
+    params = {
+        "keywords": title,
+        "location": location,
+        "start": 0,
+        "sortBy": "DD",
+    }
+    start_url = f"https://www.linkedin.com/jobs/search?{urlencode(params)}"
+    await crawler.run(
+        [
+            Request.from_url(
+                url=start_url,
+                label="Linkedin_List",
+                headers=_HEADERS,
+                user_data={"max_results": max_results},
+            )
+        ]
+    )
+
+    data_page = await crawler.get_data()
+    items = _extract_items(data_page)
+    linkedin_items = [
+        item for item in items if str(item.get("platform", "")).strip().lower() == "linkedin"
+    ]
+    return _latest_first(linkedin_items)

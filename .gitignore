@@ -6,3 +6,5 @@
 .venv
 storage/
 __pycache__/
+.claude/
+src/auto_job_apply_agent.egg-info/
