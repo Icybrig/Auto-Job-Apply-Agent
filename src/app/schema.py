@@ -56,3 +56,25 @@ class JobResponse(JobBase):
     id: int
     model_config = ConfigDict(from_attributes=True)
     created_at: datetime
+
+
+class UserProfile(BaseModel):
+    name: str
+    gender: str  # "Homme" | "Femme" | "Autre"
+    email: str
+    phone: str
+    skills: str
+    experience: str
+    projects: str
+    education: str
+    languages: str
+
+
+class GenerateRequest(BaseModel):
+    job_id: int
+    user_profile: UserProfile
+
+
+class GenerateResponse(BaseModel):
+    cv_markdown: str
+    letter_markdown: str

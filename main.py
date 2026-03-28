@@ -2,10 +2,12 @@ from src.db.model import Base
 from src.db.database import engine
 from fastapi import FastAPI
 from src.app.router import job_router, crawler_router
+from src.agent.router import agent_router
 
 app = FastAPI()
 app.include_router(job_router)
 app.include_router(crawler_router)
+app.include_router(agent_router)
 # Base.metadata.drop_all(bind=engine)
 Base.metadata.create_all(bind=engine)
 
